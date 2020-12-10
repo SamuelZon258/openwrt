@@ -42,7 +42,7 @@
 1.首先装好 Ubuntu 64bit,推荐 Ubuntu 18以上版本  
 2.命令行输入 `sudo apt-get update` ，然后输入 `sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync`  
 3.安装失败他也会结束,需要确保环境都安装成功,不然编译的时候脑壳疼.  
-4.使用 `git clone -b openwrt-19.07 https://github.com/SamuelZon258/openwrt.git` 命令下载好源代码,然后 `cd openwrt` 进入目录  
+4.使用 `git clone -b openwrt-19.07.5.1 https://github.com/SamuelZon258/openwrt.git` 命令下载好源代码,然后 `cd openwrt` 进入目录  
 5. `./scripts/feeds update -a && ./scripts/feeds install -a` :下载并安装软件  
 6. `make menuconfig` 选择需要的软件  
 (如果全都需要也可以直接执行`cp -r ./.config.bat ./.config`,不建议全添加再去除,可能会有没必要的依赖残留)  
