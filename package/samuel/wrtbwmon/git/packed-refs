@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+2f850c48e2abcaffe934a2e9697d71c1de878683 refs/remotes/origin/master
+fc79340f1e51556c1c43578c4f37e0e25ac779b7 refs/remotes/origin/old-master
+0a89d31b0e70591425fc9f7d4a5dc85a859ccff7 refs/tags/lede-17.01.x
+^00c0cc17ac9c41102fd386d8be76ec8feeafe96e
+599fa2fe5c4c0d0da4d14a33f56424f1913dd1fd refs/tags/v1.2.0
+be55f765c0e8c0e3c4184ba97b08428df0253624 refs/tags/v1.2.1
