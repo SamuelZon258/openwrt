@@ -44,8 +44,7 @@
 3.安装失败他也会结束,需要确保环境都安装成功,不然编译的时候脑壳疼.  
 4.使用 `git clone -b openwrt-19.07 https://github.com/SamuelZon258/openwrt.git` 命令下载好源代码,然后 `cd openwrt` 进入目录  
 5. `./scripts/feeds update -a && ./scripts/feeds install -a` :下载并安装软件  
-6.`make -j8 download V=s` 下载dl库（国内请尽量全局科学上网）
-7. `make menuconfig` 选择需要的软件  
+6. `make menuconfig` 选择需要的软件  
 (如果全都需要也可以直接执行`cp -r ./.config.bat ./.config`,不建议全添加再去除,可能会有没必要的依赖残留)  
 
 ### 必选:  
